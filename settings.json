@@ -136,11 +136,11 @@
     "random": false
   },
   "background.windowBackgrounds": [
-    "c:/Users/Gengo/windots/wallpapers/860193.png"
+    ""
   ],
 
   // ---------- Java ----------
-  "jdk.jdkhome": "c:\\Users\\Gengo\\Downloads\\Faculdade\\Conteúdos_de_estudo_4_semestre\\PI DESENVOLVIMENTO DE SISTEMAS ORIENTADOS A OBJETOS\\JAVA\\Oracle_JDK-24",
+  "jdk.jdkhome": "",
 
   // ---------- Code Runner (corrigido) ----------
   "code-runner.executorMap": {
