@@ -4,9 +4,7 @@
 > Foco: tela limpa, alto contraste, atalhos objetivos e extensões essenciais para produtividade.
 
 <p align="center">
-  <!-- Substitua pelas suas imagens reais -->
   <img src="assets/screens/editor-clean.png" alt="Editor limpo" width="85%"><br/>
-  <em>Editor limpo, sem distrações — personalize as imagens em <code>assets/screens/</code>.</em>
 </p>
 
 ---
