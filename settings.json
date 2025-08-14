@@ -1,0 +1,183 @@
+{
+  // ────────────────────────────────────────────────────────────────
+  //  ⚙️  Configurações PESSOAIS do VS Code
+  //  Limpo de duplicatas, MinGW antigo removido e Code Runner ajeitado
+  // ────────────────────────────────────────────────────────────────
+  "workbench.startupEditor": "none",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "editor.parameterHints.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
+
+  "workbench.colorTheme": "Min Dark",
+  "workbench.preferredDarkColorTheme": "Min Dark",
+  "workbench.preferredLightColorTheme": "Min Light",
+  "workbench.iconTheme": "symbols",
+  "workbench.activityBar.location": "hidden",
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css",
+    ".dev.vars": "dotenv"
+  },
+
+  "symbols.files.associations": {
+    "*.module.ts": "nest",
+    "*.guard.ts": "typescript",
+    "*.spec.ts": "ts-test",
+    "*.e2e-spec.ts": "ts-test",
+    "*.mock.ts": "ts-test",
+    "vitest.config.e2e.ts": "vite",
+    ".env.development.local": "gear",
+    ".env.test.local": "gear",
+    ".env.local": "gear",
+    ".env.example": "gear"
+  },
+
+  "tailwindCSS.experimental.classRegex": [
+    ["tv\\(([^)]*)\\)", "[\"']([^\"']*).*?[\"']"],
+    "class:\\s*?[\"']([^\"']*).*?,"
+  ],
+
+  "cSpell.language": "en,pt",
+  "cSpell.enableFiletypes": [
+    "!asciidoc","!c","!cpp","!csharp","!go","!handlebars","!haskell","!jade",
+    "!java","!latex","!php","!pug","!python","!restructuredtext","!rust",
+    "!scala","!scss"
+  ],
+  "cSpell.userWords": [
+    "bootcamp","chakra","checkin","checkins","cloudflare","clsx","Codegen",
+    "datadog","Datetime","dayjs","Dotenv","Elysia","esbuild","fastify","ffprobe",
+    "gamificada","Hasher","hono","IUGU","jamjuree","jupiter","ksuid","liveblocks",
+    "Marguerita","middlewares","mixpanel","monaco","nestjs","nivo","omni",
+    "Onboarded","pallas","prefetch","reactflow","retriable","roboto","rocketseat",
+    "rotion","rsxp","Sandpack","shiki","skylab","sqlite","supergraph","svgr",
+    "sympla","tailwindcss","textblock","tiptap","trpc","tsup","unfollow",
+    "unform","unmark","upsert","Usuario","webm","WEBPUSH"
+  ],
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+
+  "files.exclude": {
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.git": true,
+    ".vscode": true
+    // "node_modules": true
+  },
+
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.gpuAcceleration": "on",
+
+  // ---------- Git & GitLens ----------
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always",
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+
+  // ---------- LSP / TypeScript ----------
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.tsserver.log": "off",
+
+  // ---------- ESLint ----------
+  "eslint.validate": ["javascript", "javascriptreact", "graphql"],
+
+  // ---------- Emmet ----------
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "mdx": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "mdx": "jsx"
+  },
+
+  // ---------- Background (ext. background) ----------
+  "background.fullscreen": {
+    "images": [
+      "https://www.deviantart.com/cyberxyt/art/Anime-Night-4k-landscape-wallpaper-989910737"
+    ],
+    "opacity": 0.1,
+    "size": "cover",
+    "position": "center",
+    "interval": 0,
+    "random": false
+  },
+  "background.windowBackgrounds": [
+    "c:/Users/Gengo/windots/wallpapers/860193.png"
+  ],
+
+  // ---------- Java ----------
+  "jdk.jdkhome": "c:\\Users\\Gengo\\Downloads\\Faculdade\\Conteúdos_de_estudo_4_semestre\\PI DESENVOLVIMENTO DE SISTEMAS ORIENTADOS A OBJETOS\\JAVA\\Oracle_JDK-24",
+
+  // ---------- Code Runner (corrigido) ----------
+  "code-runner.executorMap": {
+  
+    
+
+
+    
+  },
+
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.languageIdToFileExtensionMap": {
+    "bat": ".bat",
+    "powershell": ".ps1",
+    "typescript": ".ts"
+  },
+
+  // ---------- Diversos ----------
+  "update.mode": "manual",
+  "update.showReleaseNotes": false,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "toggle",
+  "window.autoDetectColorScheme": true,
+  "window.titleBarStyle": "native",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "security.promptForLocalFileProtocolHandling": false,
+  "terminal.integrated.env.osx": { "FIG_NEW_SESSION": "1" },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "redhat.telemetry.enabled": true,
+  "console-ninja.featureSet": "Community",
+  "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+  "editor.scrollbar.vertical": "hidden",
+  "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
+  "workbench.tips.enabled": false,
+  "workbench.settings.applyToAllProfiles": [
+    "workbench.tips.enabled"
+  ],
+  "window.newWindowProfile": "Default"
+}
