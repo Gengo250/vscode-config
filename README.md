@@ -1,5 +1,5 @@
-# 💻 VS Code — Perfil Minimalista (by @Gengo250)
-
+# 💻 VS Code — Perfil Minimalista 
+-(by @Gengo250)
 > Backup oficial e guia de instalação do meu ambiente **minimalista** no VS Code.  
 > Foco: tela limpa, alto contraste, atalhos objetivos e extensões essenciais para produtividade.
 
