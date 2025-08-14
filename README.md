@@ -94,25 +94,6 @@ Pronto! Ao reabrir o VS Code, você estará com o mesmo conjunto de extensões e
 
 ---
 
-## 🖼️ Screenshots
-
-> Crie a pasta `assets/screens/` e adicione prints com estes nomes (ou ajuste os caminhos abaixo).
-
-| Seção | Imagem sugerida | Dica do que mostrar |
-|------|------------------|---------------------|
-| Editor limpo | `assets/screens/editor-clean.png` | Aba única aberta, barra lateral recolhida |
-| Terminal integrado | `assets/screens/terminal.png` | Shell padrão, prompt limpo |
-| Extensões | `assets/screens/extensions.png` | Página de extensões com as principais instaladas |
-| Snippets | `assets/screens/snippets.png` | Exemplo de snippet em ação |
-
-Exemplo de uso no README:
-
-```md
-![Editor limpo](assets/screens/editor-clean.png)
-```
-
----
-
 ## 🔁 Atualizações & versão do VS Code
 
 - Sempre que mudar seu ambiente, **exporte novamente** o perfil e atualize este repositório.
@@ -137,15 +118,6 @@ Nos caminhos de usuário listados na *Opção B* (variando por SO).
 
 ---
 
-## 🧩 Como contribuir (para você mesmo no futuro)
-
-1. Ajuste algo no seu VS Code.  
-2. Exporte o perfil novamente (**Profiles → Export Profile…**).  
-3. Substitua `Myprofile.code-profile`, atualize `settings.json`/`snippets/` se necessário.  
-4. Faça commit com uma mensagem clara, ex.: `chore(vscode): exporta perfil minimalista + atualiza settings`.
-
----
-
 ## 🧾 Licença
 
 Este repositório contém **configurações pessoais**. Sinta-se à vontade para se inspirar e copiar, mas lembre-se de revisar cada opção para o seu contexto.
@@ -157,7 +129,7 @@ Este repositório contém **configurações pessoais**. Sinta-se à vontade para
 - Preferências do editor: [`settings.json`](./settings.json)
 - Lista de extensões: [`extensions.txt`](./extensions.txt)
 - Snippets: [`snippets/`](./snippets/)
-- Imagens: [`assets/screens/`](./assets/screens/) *(crie se não existir)*
+- Imagens: [`assets/screens/`](./assets/screens/) 
 
 ---
 
