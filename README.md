@@ -6,6 +6,9 @@
 <p align="center">
   <img src="assets/screens/editor-clean.png" alt="Editor limpo" width="85%"><br/>
 </p>
+<p align="center">
+  <img src="assets/screens/terminal.png" alt="Editor limpo" width="85%"><br/>
+</p>
 
 ---
 
@@ -38,7 +41,7 @@ code ./meu-projeto --profile "Gengo Minimal"
 ```
 ---
 <p align="center">
-  <img src="assets/screens/.png" alt="Editor limpo" width="85%"><br/>
+  <img src="assets/screens/extensions.png" alt="Editor limpo" width="85%"><br/>
 </p>
 ---
 
