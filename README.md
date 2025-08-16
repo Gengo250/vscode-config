@@ -1,9 +1,6 @@
 # 💻 VS Code — Perfil Minimalista 
 -(by @Gengo250)
 ![VS Code — Perfil Minimalista](assets/banners/vscode-minimal-hero-dark.png)
-![Terminal Integrado](assets/banners/vscode-minimal-terminal.png)
-![Extensões Essenciais](assets/banners/vscode-minimal-extensions.png)
-![UI Limpa](assets/banners/vscode-minimal-clean.png)
 > Backup oficial e guia de instalação do meu ambiente **minimalista** no VS Code.  
 > Foco: tela limpa, alto contraste, atalhos objetivos e extensões essenciais para produtividade.
 
