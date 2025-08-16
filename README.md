@@ -36,7 +36,10 @@
 ```bash
 code ./meu-projeto --profile "Gengo Minimal"
 ```
-
+---
+<p align="center">
+  <img src="assets/screens/.png" alt="Editor limpo" width="85%"><br/>
+</p>
 ---
 
 ### 🛠️ Opção B — **Aplicação manual** (arquivos + extensões)
